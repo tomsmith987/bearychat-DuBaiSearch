@@ -16,6 +16,7 @@ if(isset($result->token)){
         $response = Go($url);
         $crawler = new Crawler();
         $crawler->addHtmlContent($response);
+        //解析html数据
         try {
             $data = []; //结构化数据存本数组
             $res = "您查询的关键词是：$searchText\n";
