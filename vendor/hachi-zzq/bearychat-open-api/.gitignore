@@ -1,0 +1,7 @@
+/vendor/
+composer.lock
+.php_cs.cache
+.idea
+phpcbf.phar
+phpcs.phar
+src/vendor

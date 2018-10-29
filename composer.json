@@ -1,0 +1,10 @@
+{
+    "require": {
+        "hachi-zzq/bearychat-open-api": "^1.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "symfony/dom-crawler": "3.3.0"
+    },
+    "require-dev": {
+        "symfony/css-selector": "^4.1"
+    }
+}

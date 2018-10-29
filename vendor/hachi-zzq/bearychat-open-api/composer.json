@@ -1,0 +1,35 @@
+{
+  "name": "hachi-zzq/bearychat-open-api",
+  "description": "bearychat open API SDK",
+  "keywords": [
+    "bearychat",
+    "贝洽",
+    "sdk"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "hachi",
+      "email": "haichi.zzq@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "pimple/pimple": "^3.0",
+    "guzzlehttp/guzzle": "^6.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hachi\\Bearychat\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    },
+    {
+      "packagist": false
+    }
+  ]
+}
